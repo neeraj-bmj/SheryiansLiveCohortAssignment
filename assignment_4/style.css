@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body, html{
+    width: 100%;
+    height: 100%;
+    font-size: 16px;
+    font-family: 'Segoe UI';
+}
+.container{
+    width: 80%;
+    /* height: 100%; */
+    /* background-color: rgb(223, 37, 37); */
+    transform: translate(10%, 0%);
+}
+.header{
+    text-align: center;
+    padding: 5vh;
+}
+.main{
+    display: grid;
+    grid-template-areas: 
+    "a b c d"
+    "e f g h"
+    ;
+    gap: 2%;
+}
+
+.card_a{
+    grid-area: a;
+}
+.card_b{
+    grid-area: b;
+}
+.card_c{
+    grid-area: c;
+}
+.card_d{
+    grid-area: d;
+}
+.card_e{
+    grid-area: e;
+}
+.card_f{
+    grid-area: f;
+}
+@media screen and (max-width: 575px) {
+    .main{
+        display: block;
+        width: 100%;
+        margin: 0;
+    }
+    .card{
+        margin:20px 0;
+    }
+  }
+
+.card{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(251, 245, 234);
+    border: 2px solid rgb(225, 222, 222);
+    border-radius: 10px;
+
+}
+.image{
+    transform: translate(10%, 5%);
+    width: 80%;
+    height: 55%;
+}
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.content{
+    width: 80%;
+    padding: 0.6rem 0;
+    text-align: center;
+}
+.heading{
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+.price{
+    font-weight: 700;
+}
+

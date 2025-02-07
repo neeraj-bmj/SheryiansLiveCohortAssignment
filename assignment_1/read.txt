@@ -1,0 +1,11 @@
+git initialized
+1- git init
+
+git remote add origin url-repo
+
+1- staging
+    git add . 
+2- commiting  
+    git commit -m "msg"      
+3- push    
+    git push origin master     

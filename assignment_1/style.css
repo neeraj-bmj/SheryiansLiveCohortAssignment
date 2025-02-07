@@ -1,0 +1,49 @@
+html,body{
+    width: 100%;
+    height: 100%;
+}
+.container{
+    width: 90vw;
+    margin: auto;
+    border: 2px solid #F5F5F5;
+    border-top: none;
+}
+.header{
+    width: 100%;
+    height: 170px;
+    background-color: #F5F5F5;
+}
+.header h1{
+    padding-top: 30px;
+    font-weight: 900;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow',;
+}
+.nav{
+    background-color: #3296D7;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.nav  p a{
+    padding: 0px 10px;
+    text-decoration: none;
+    color: white;
+}
+.main .first_blog, .second_blog, .footer{
+    padding: 15px;
+}
+.dog_image, .footer p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer {
+    background-color: #F5F5F5;
+    padding: 0;
+}
+.footer p{
+    background-color: #323232;
+    height: 50px;
+    width: 100%;
+    color: white;
+}
