@@ -1,0 +1,247 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  font-size: 16px;
+  font-family: "Noto Sans JP", sans-serif;
+}
+
+.line {
+  height: 1px;
+  margin: 30px 0px;
+  background-color: black;
+}
+
+.container {
+  border: 2px solid black;
+  margin: 15px;
+}
+.container .contant {
+  padding: 40px 25px;
+}
+.container .contant .NavBar {
+  display: flex;
+  justify-content: space-between;
+}
+.container .contant .NavBar .part-1 .svg {
+  width: 140px;
+  height: 140px;
+  background-color: lightcoral;
+  border-radius: 50%;
+}
+.container .contant .NavBar .part-1 h1 {
+  font-weight: bold;
+  font-size: 5rem;
+}
+.container .contant .NavBar .part-2 {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+.container .contant .NavBar .part-2 .icon {
+  font-size: 90px;
+}
+.container .contant .section-1 h3 {
+  font-weight: 400;
+  opacity: 0.7;
+  text-transform: uppercase;
+  opacity: 1;
+  font-size: 1.2rem;
+}
+.container .contant .section-1 h1 {
+  width: 70%;
+  font-size: 4rem;
+  opacity: 0.7;
+  line-height: 4.5rem;
+  letter-spacing: 1px;
+  padding-bottom: 30px;
+}
+.container .contant .section-1 img {
+  width: 100%;
+  aspect-ratio: 2/1.2;
+  border-radius: 30px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.container .contant .section-2 .part-1 {
+  margin-top: 30px;
+}
+.container .contant .section-2 .part-1 h3 {
+  font-weight: 400;
+  opacity: 0.7;
+  text-transform: uppercase;
+  font-size: 1.2rem;
+}
+.container .contant .section-2 .part-1 h1 {
+  opacity: 0.8;
+  padding-top: 30px;
+  font-size: 3rem;
+  line-height: 3.5rem;
+}
+.container .contant .section-2 .part-1 button {
+  padding: 8px 20px;
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+  font-size: 1.2rem;
+  border: none;
+  margin-top: 40px;
+  text-transform: uppercase;
+}
+.container .contant .section-2 .part-2 .svg {
+  width: 140px;
+  height: 140px;
+  background-color: lightcoral;
+  border-radius: 50%;
+}
+.container .contant .section-2 .part-2 h2 {
+  text-transform: uppercase;
+  margin: 10px 0px;
+  font-weight: 500;
+}
+.container .contant .section-2 .part-2 p {
+  font-size: 1rem;
+}
+.container .contant .section-3 .part-1 h1 {
+  font-size: 2rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin: 25px 0px;
+}
+.container .contant .section-3 .part-1 p {
+  font-size: 1.4rem;
+  font-weight: 300;
+}
+.container .contant .section-3 .part-2 .card .image {
+  width: 100%;
+  aspect-ratio: 2/1;
+  background-color: rgb(121, 238, 238);
+  border-radius: 30px;
+  overflow: hidden;
+}
+.container .contant .section-3 .part-2 .card .image img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 30px;
+}
+.container .contant .section-3 .part-2 .card h1 {
+  font-weight: 400;
+  margin-left: 10px;
+  font-size: 25px;
+}
+.container .contant .section-3 .part-2 .card h3 {
+  font-weight: 400;
+  margin-left: 10px;
+  font-size: 17px;
+  text-transform: uppercase;
+}
+.container .contant .section-3 .part-2 .card-margin-up {
+  margin-top: 30px;
+}
+.container .contant .section-4 .svg {
+  width: 140px;
+  height: 140px;
+  background-color: lightcoral;
+  border-radius: 50%;
+}
+.container .contant .section-4 h3 {
+  font-weight: 400;
+  opacity: 0.7;
+  text-transform: uppercase;
+  margin: 20px 0px;
+}
+.container .contant .section-4 h1 {
+  font-size: 3rem;
+  font-weight: 400;
+  line-height: 3.5rem;
+  text-transform: uppercase;
+}
+.container .contant .section-4 p {
+  opacity: 0.7;
+  font-size: 25px;
+  font-weight: 400;
+  margin: 40px 0px;
+}
+.container .contant .section-4 button {
+  padding: 8px 20px;
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+  font-size: 1.2rem;
+  border: none;
+  margin-top: 40px;
+  text-transform: uppercase;
+}
+.container .contant .section-5 .part-1 .first-line {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+}
+.container .contant .section-5 .part-1 .first-line .svg {
+  width: 140px;
+  height: 140px;
+  background-color: lightcoral;
+  border-radius: 50%;
+}
+.container .contant .section-5 .part-1 .first-line h1 {
+  text-transform: uppercase;
+  font-size: 3.5rem;
+}
+.container .contant .section-5 .part-1 h3 {
+  font-weight: 400;
+  opacity: 0.7;
+  text-transform: uppercase;
+}
+.container .contant .section-5 .part-1 .group {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+.container .contant .section-5 .part-1 .group .circle {
+  padding: 15px;
+  border: 1px solid black;
+  border-radius: 50%;
+}
+.container .contant .section-5 .part-2 .pt {
+  line-height: 2.5rem;
+}
+.container .contant .section-5 .part-2 .pt h1 {
+  font-weight: 400;
+  opacity: 0.7;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+.container .contant .section-5 .part-2 .pt h3 {
+  font-weight: 400;
+  opacity: 0.7;
+  text-transform: uppercase;
+}
+.container .contant .section-5 .part-2 .pt button {
+  padding: 8px 20px;
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+  font-size: 1.2rem;
+  border: none;
+  margin-top: 40px;
+  text-transform: uppercase;
+}
+.container .contant .footer h3 {
+  font-weight: 400;
+  opacity: 0.7;
+  text-transform: uppercase;
+}
+.container .contant .footer h3 div {
+  text-decoration: underline;
+  display: inline-block;
+}/*# sourceMappingURL=style.css.map */
